@@ -4,5 +4,5 @@ package com.slokam.healthcare.repo;
 				import com.slokam.healthcare.entity.Appointment;
 				@Repository
 				public interface AppointmentRepo extends JpaRepository<Appointment, Integer> {
-
+                                      System.out.println("");
 				}
